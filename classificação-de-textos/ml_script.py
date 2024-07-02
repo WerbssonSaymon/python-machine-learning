@@ -4,6 +4,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 
+#scikit learn: Naive_Bayes - CountVectorizer e MultinomialNB
+
+"""
+    Projeto de classificação de textos
+
+    CSV: textos e categoria
+"""
+
 # Dados de treino
 dados = pd.read_csv('arquivo.csv')
 
